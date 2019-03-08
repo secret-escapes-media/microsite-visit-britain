@@ -46,7 +46,7 @@
             imageSrc="/overview.jpg"
             title="Find your next Microgap Experience"
             paragraph="Experience new things, explore new cultures, learn new skills and meet new people - find your microgap."
-            url="/offers"
+            url="offers"
             key="imageText"
             :visible="visibility.imageText"
           />

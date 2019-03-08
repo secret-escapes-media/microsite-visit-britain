@@ -74,11 +74,21 @@
   }
 
   &__title {
-    @include fontSize(16px);
+    @include fontSize(20px);
+    font-weight: 300;
     font-weight: normal;
+    letter-spacing: 0;
+    color: $black;
+    line-height: 25px;
 
     @media (min-width: $medium) {
       height: rem(44px);
+    }
+  }
+
+  &__description {
+    @media (min-width: $medium) {
+      height: rem(36px);
     }
   }
 
@@ -124,8 +134,8 @@
     line-height: rem(15px);
     small {
       text-transform: none;
-      letter-spacing: rem(1px);
-      @include fontSize(9px);
+      letter-spacing: rem(0px);
+      @include fontSize(10px);
     }
   }
 
@@ -156,6 +166,7 @@
 
   &__section {
     background-color: $lightgrey;
+    padding: rem(60px) 0 rem(30px);
   }
 
   &__title {

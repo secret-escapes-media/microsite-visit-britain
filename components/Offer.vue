@@ -14,7 +14,7 @@
     <div class="offer__image">
 
       <img
-        :src="'/visitbritain'+imageSrc"
+        :src="imageSrc"
         :alt="title"
       >
 
@@ -45,7 +45,7 @@
 
         <div class="offer__details">
           From<span class="offer__cost">£{{cost}}</span><br>
-          <small>per person base on 2 people per room</small>
+          <small>per person based on 2 people per room</small>
         </div>
 
         <img

@@ -28,9 +28,11 @@
 
         <div class="offers__section">
 
+          <!--
           <div class="row row--wide">
             <h2 class="offers__title">Offers</h2>
           </div>
+          -->
 
           <div class="row row--wide">
 
@@ -40,11 +42,11 @@
                 key="offer1"
                 title="No Man's Fort"
                 location="Portsmouth, Hampshire"
-                description="Travel by boat for a once-in-a-lifetime stay on a historic Solent fort, with boat transfers, breakfast, a three-course dinner and guided tour included"
+                description="Soak up a bucket-list sea fort stay in the Solent"
                 percentage="36"
-                cost="174"
-                url="https://www.secretescapes.com/no-mans-fort-portsmouth-hampshire/sale"
-                imageSrc="/offers/no-mans-fort.jpg"
+                cost="349"
+                url="https://www.secretescapes.com/no-mans-fort-portsmouth-hampshire/sale?utm_source=SE_media&utm_medium=VisitBritain&utm_campaign=March2019"
+                imageSrc="https://d1x3cbuht6sy0f.cloudfront.net/sales/42103/cccf48d1_5dc2_4639_b6b5_a0bcfc9e993d.jpg"
               />
 
               <offer
@@ -55,7 +57,7 @@
                 percentage="48"
                 cost="104"
                 url="https://www.secretescapes.com/thornbury-castle-the-cotswolds-thornbury/sale"
-                imageSrc="/offers/thornbury-castle.jpg"
+                imageSrc="https://d1x3cbuht6sy0f.cloudfront.net/sales/40049/adfbde58_1b9e_4e27_8a8e_725974c84c07_nws.jpg"
               />
 
               <offer
@@ -65,8 +67,8 @@
                 description="Stay at an elegant boutique west London hotel set just moments from Hyde Park - includes breakfast, Harry Potter tour tickets and an Oxford coach trip"
                 percentage=""
                 cost="155"
-                url="hhttps://www.secretescapes.com/elegant-west-london-getaway-with-harry-potter-tour-tickets-roseate-house-london-london/sale"
-                imageSrc="/offers/harry-potter.jpg"
+                url="https://www.secretescapes.com/elegant-west-london-getaway-with-harry-potter-tour-tickets-roseate-house-london-london/sale"
+                imageSrc="https://d1x3cbuht6sy0f.cloudfront.net/sales/89418/54a4c7b5_ee62_48d2_9dd4_de74e121723d_nws.jpg"
               />
 
               <offer
@@ -77,7 +79,7 @@
                 percentage="27"
                 cost="165"
                 url="https://www.secretescapes.com/the-rembrandt-knightsbridge-london-uk-sale/sale"
-                imageSrc="/offers/west-london.jpg"
+                imageSrc="https://d1x3cbuht6sy0f.cloudfront.net/sales/89316/9db4284f_c78c_498d_9d1b_f32e270d01cb_nws.jpg"
               />
 
               <offer
@@ -88,7 +90,7 @@
                 percentage="21"
                 cost="338"
                 url="https://www.secretescapes.com/the-big-cat-sanctuary-ashford-kent/sale"
-                imageSrc="/offers/big-cat-sanctuary.jpg"
+                imageSrc="https://d1x3cbuht6sy0f.cloudfront.net/sales/69106/49b7181d_5d3d_4305_b1da_99295e7e39b2_nws.jpg"
               />
 
               <offer
@@ -99,39 +101,29 @@
                 percentage="44"
                 cost="124"
                 url="https://www.secretescapes.com/yachting-on-the-solent-with-a-choice-of-two-unique-stays-sail-between-lymington-and-the-isle-of-wight/sale"
-                imageSrc="/offers/yacht.jpg"
+                imageSrc="https://d1x3cbuht6sy0f.cloudfront.net/sales/67658/e52594ad_9c91_45f4_bcb9_8b16ea594406_nws.jpg"
               />
 
               <offer
                 key="offer7"
-                title="Belmond British Pullman train experience with 5* London stay"
-                location="Draycott Hotel, Chelsea"
-                description="Journey aboard the iconic Belmond British Pullman train with a fabulous brunch, plus a boutique London stay near Sloane Square - includes breakfast, champagne and more"
-                cost="310"
-                url="https://www.secretescapes.com/belmond-british-pullman-train-experience-with-5-star-london-stay-draycott-hotel-chelsea/sale"
-                imageSrc="/offers/pullman.jpg"
-              />
-
-              <offer
-                key="offer8"
                 title="Champneys Henlow"
                 location="Henlow, Bedfordshire"
                 description="A soul-soothing stay at a stately Champneys spa resort in Bedfordshire – includes all meals, plus a thalassotherapy pool treatment and unlimited use of the leisure facilities"
                 cost="114"
                 percentage="34"
                 url="https://www.secretescapes.com/champneys-henlow-henlow-bedfordshire/sale"
-                imageSrc="/offers/champneys-henlow.jpg"
+                imageSrc="https://d1x3cbuht6sy0f.cloudfront.net/sales/81648/0c717cb9_8520_4b20_94b3_30e2d22d11c7_nws.jpg"
               />
 
               <offer
-                key="offer9"
+                key="offer8"
                 title="Old Walls Vineyard"
                 location="Bishopsteignton, Devon"
                 description="Escape to a rural bolthole surrounded by rolling hills and sumptuous vines on the Devon coast, including breakfast, a cream tea, wine making and tasting experience and more"
                 cost="162"
                 percentage="24"
                 url="https://www.secretescapes.com/old-walls-vineyard-bishopsteignton-devon/sale"
-                imageSrc="/offers/devon.jpg"
+                imageSrc="https://d1x3cbuht6sy0f.cloudfront.net/sales/89613/d36e6d6c_8f73_4295_8dbf_fb8b2248d516_nws.jpg"
               />
 
             </div>
