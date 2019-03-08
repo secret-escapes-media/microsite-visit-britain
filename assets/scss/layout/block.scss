@@ -1,0 +1,8 @@
+.block {
+  margin-top: rem(15px);
+  margin-bottom: rem(60px);
+
+  @media (min-width: $medium) {
+    margin-bottom: rem(120px);
+  }
+}

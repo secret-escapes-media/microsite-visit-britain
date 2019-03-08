@@ -1,0 +1,21 @@
+.intro-text {
+  position: relative;
+  padding-top: rem(15px);
+
+  //   p {
+  //     &:first-of-type {
+  //       font-weight: bold;
+  //     }
+  //   }
+
+  &::before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: -28.5px;
+    top: 0;
+    height: 3px;
+    width: 57px;
+    background-color: $brand-primary;
+  }
+}

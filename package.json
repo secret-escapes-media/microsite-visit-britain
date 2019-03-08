@@ -1,0 +1,35 @@
+{
+  "name": "secret-escapes-visitbritain",
+  "version": "1.0.0",
+  "description": "My polished Nuxt.js project",
+  "author": "Tim Elliott",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "now-build": "nuxt generate",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "cross-env": "^5.2.0",
+    "gsap": "^2.1.1",
+    "node-sass": "^4.11.0",
+    "nuxt": "^2.4.0",
+    "sass-loader": "^7.1.0",
+    "vue-scrollview": "^3.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9",
+    "@storybook/vue": "^5.0.0",
+    "@storybook/addon-actions": "^5.0.0",
+    "@storybook/addon-links": "^5.0.0",
+    "@storybook/addons": "^5.0.0",
+    "babel-preset-vue": "^2.0.2",
+    "@babel/core": "^7.3.4",
+    "babel-loader": "^8.0.5"
+  }
+}

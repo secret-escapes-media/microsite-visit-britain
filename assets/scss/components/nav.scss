@@ -1,0 +1,86 @@
+$nav-breakpoint: 1100px;
+
+nav {
+  display: flex;
+  align-items: center;
+  // justify-content: space-evenly;
+
+  position: relative;
+  font-size: rem(14.4px);
+
+  overflow-x: scroll;
+
+  @media (min-width: $nav-breakpoint) {
+    overflow-x: hidden;
+  }
+
+  span {
+    flex: 1 0 150px;
+    text-align: center;
+  }
+
+  &.main-nav {
+    width: 100vw;
+
+    margin: 0 auto 0 auto;
+
+    @media (min-width: $medium) {
+      margin: 0 auto rem(60px) auto;
+    }
+
+    @media (min-width: $nav-breakpoint) {
+      width: 90vw;
+      border-radius: rem(5px);
+    }
+
+    bottom: rem(32px);
+
+    background-color: white;
+    padding: 20px;
+
+    span:not(:last-of-type) {
+      border-right: 1px solid rgba($grey, 0.3);
+    }
+
+    box-shadow: 0 rem(2px) rem(23px) 0 rgba(0, 0, 0, 0.3);
+
+    a,
+    span {
+      color: $grey;
+      text-transform: uppercase;
+    }
+    a {
+      letter-spacing: rem(0.5px);
+      padding: 5px 10px;
+      font-size: rem(13px);
+      &.active {
+        color: $brand-primary;
+        font-weight: bold;
+      }
+    }
+  }
+  &.footer-nav {
+    background-color: $darkestgrey;
+    position: relative;
+    padding: 0 20px;
+
+    @media (min-width: $medium) {
+      margin: 0 100px;
+    }
+
+    span {
+      padding: 10px 0;
+
+      @media (min-width: $medium) {
+        padding: 20px 0;
+      }
+
+      &:not(:last-of-type) {
+        border-right: 1px solid rgba($white, 0.1);
+      }
+    }
+    a {
+      color: $white;
+    }
+  }
+}

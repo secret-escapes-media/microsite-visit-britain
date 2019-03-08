@@ -1,0 +1,58 @@
+.hero {
+  height: rem(400px);
+  padding: 0 rem(20px);
+
+  @media (min-width: $medium) {
+    height: 85vh;
+    padding: 0 100px;
+  }
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: white;
+
+  &__text {
+    h1 {
+      display: inline-block;
+      font-size: 60px;
+      line-height: 70px;
+      margin: 0;
+      position: relative;
+      z-index: 10;
+
+      @media (min-width: $medium) {
+        font-size: 100px;
+        line-height: 110px;
+      }
+
+      // @include bold-underline();
+    }
+  }
+  &__subtext {
+    margin-top: 10px;
+    font-weight: bold;
+    position: relative;
+    font-size: 15px;
+
+    @media (min-width: $medium) {
+      font-size: 20px;
+    }
+
+    img {
+      position: relative;
+      top: 15px;
+      width: 100px;
+
+      @media (min-width: $medium) {
+        top: 25px;
+        width: 150px;
+      }
+    }
+  }
+}

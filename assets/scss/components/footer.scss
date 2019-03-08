@@ -1,0 +1,103 @@
+.footer {
+  background-color: $darkestgrey;
+
+  &__top-section {
+    @media (min-width: $medium) {
+      height: rem(680px);
+    }
+    background-image: url("/visitbritain/footer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: $white;
+    position: relative;
+
+    &::before {
+      @include bold-image-line($orange);
+      top: rem(-15px);
+      left: 60px;
+      max-width: rem(175px);
+      width: 30%;
+    }
+
+    &::after {
+      @include bold-image-line($orange);
+      bottom: 0;
+      right: 0;
+      width: 40%;
+
+      @media (min-width: $medium) {
+        bottom: rem(30px);
+        width: rem(275px);
+      }
+    }
+  }
+
+  &__text-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    padding: $base-padding / 2;
+
+    @media (min-width: $medium) {
+      padding-left: 100px;
+      width: 560px;
+    }
+
+    h2,
+    p {
+      color: $white;
+    }
+
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  &__bottom-section {
+    height: 180px;
+    background-color: $black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    color: $grey;
+  }
+
+  &__logos-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__logo {
+    img {
+      height: 25px;
+    }
+    &--secret-escapes {
+      margin-right: 10px;
+
+      position: relative;
+      top: 2px;
+
+      img {
+        height: 20px;
+      }
+    }
+  }
+
+  &__copyright {
+    text-align: center;
+  }
+
+  &__links {
+    text-align: center;
+    margin: 10px 0;
+    a {
+      color: $grey;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      @include fontSize(10px);
+    }
+  }
+}

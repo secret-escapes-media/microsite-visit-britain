@@ -1,0 +1,129 @@
+$button-padding-v: 12px;
+$button-padding-h: 50px;
+
+$button-padding-v-rem: rem($button-padding-v);
+$button-padding-h-rem: rem($button-padding-h);
+
+.button {
+  color: $text-color;
+  border-radius: 1.7rem;
+  border: 2px solid $brand-primary;
+  padding: rem($button-padding-v / 2) rem($button-padding-h / 2);
+  font-family: $header-font-stack;
+  cursor: pointer;
+  text-align: center;
+  letter-spacing: 0;
+  font-weight: 800;
+  margin: 20px 0;
+  font-weight: bold;
+  font-size: 1.25rem;
+
+  align-self: flex-start;
+
+  &:not(.button--error):not(.button--no-transition) {
+    transition: 0.3s background-color, 0.15s color, 0.15s padding-right,
+      0.2s transform ease-in-out;
+    animation: 0.3s 1 forwards waterRise ease;
+    transform: translateY(5px);
+  }
+
+  @media (min-width: $medium) {
+    @include fontSize(14px);
+    padding: $button-padding-v-rem $button-padding-h-rem;
+  }
+
+  &:hover:not(.button--no-transition),
+  &:active:not(.button--no-transition) {
+    box-shadow: none;
+    color: $white;
+  }
+
+  &:not(.button--error):not(.button--no-transition):hover {
+    background: $brand-primary;
+    //transform: translateY(3px);
+    transition: 0.15s background-color, 0.15s color, 0.15s padding-right,
+      1s transform ease-out;
+    animation: 1s 1 forwards waterSink ease-out;
+  }
+
+  &:active {
+    background: $gold;
+  }
+
+  &:after {
+    margin-left: 0;
+    width: 0;
+    transition: width 0.2s, margin 0.2s;
+  }
+
+  &--no-transition {
+    cursor: initial;
+  }
+
+  &--orange {
+    background-color: $orange;
+    color: $white;
+    border: 2px solid $orange;
+
+    &:not(.button--error):hover {
+      background-color: $white;
+      color: $orange;
+      border: 2px solid $white;
+    }
+  }
+
+  &--transparent {
+    background-color: transparent;
+  }
+
+  &--yellow {
+    border: 4px solid $yellow;
+    background-color: transparent;
+
+    &:not(.button--error):hover,
+    &:not(.button--error):active {
+      background-color: $yellow !important;
+      color: $white;
+    }
+  }
+
+  &--offer {
+    padding: rem($button-padding-v * 2) rem($button-padding-h);
+    border-radius: 3px;
+    cursor: pointer;
+    &:hover {
+      background-color: $white !important;
+      color: $orange !important;
+      border: 2px solid $white !important;
+    }
+  }
+
+  &--loading {
+    position: relative;
+    padding-right: rem(40px);
+    overflow: hidden;
+
+    &:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(255, 255, 255, 0.5);
+      animation: fadeIn 0.5s infinite alternate ease-in-out;
+    }
+  }
+
+  &[disabled],
+  &:disabled {
+    opacity: 0.4;
+  }
+  &--mob-block {
+    display: block;
+
+    @media (min-width: $small) {
+      display: inline-block;
+    }
+  }
+}
