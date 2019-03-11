@@ -6,7 +6,7 @@
       <template slot-scope="visibility">
 
         <hero
-          image-src="/footer.jpg"
+          image-src="footer.jpg"
           line1="Terms and Conditions"
           key="hero"
           :visible="visibility.hero"
@@ -26,7 +26,7 @@
             <p class="p1"><span class="s1">3. Employees of Secret Escapes, </span><span class="s2">Visit Britain, Virgin Experience Days&nbsp;</span><span class="s1">and affiliated companies, their families, agents and other parties directly involved with this promotion and the sponsorship are not eligible to enter.</span></p>
             <p class="p1"><span class="s1">4. By entering this prize draw, all participants are deemed to have agreed to be bound by these terms and conditions unless notified otherwise in writing.</span></p>
             <p class="p1"><span class="s1">THE PRIZE DRAW</span></p>
-            <p class="p1"><span class="s1">5. To enter this prize draw, participants are asked to complete the entry form from </span><span class="s2">04/03/2019 00.00 am (&ldquo;Entry Date&rdquo;) and 12/03/2019 11.59 pm (&ldquo;Close Date&rdquo;).</span></p>
+            <p class="p1"><span class="s1">5. To enter this prize draw, participants are asked to complete the entry form from </span><span class="s2">07/03/2019 00.00 am (&ldquo;Entry Date&rdquo;) and 18/03/2019 11.59 am (&ldquo;Close Date&rdquo;).</span></p>
             <p class="p1"><span class="s1">6. No purchase is necessary; it is free to enter this prize draw.</span></p>
             <p class="p1"><span class="s1">7. Incomplete, invalid or inappropriate entries, or entries received after the closing date will not be eligible to win.</span></p>
             <p class="p1"><span class="s1">HOW TO PARTICIPATE</span></p>
