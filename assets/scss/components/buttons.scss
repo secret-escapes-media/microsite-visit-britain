@@ -61,12 +61,12 @@ $button-padding-h-rem: rem($button-padding-h);
   }
 
   &--orange {
-    background-color: $orange;
+    background: $orange;
     color: $white;
     border: 2px solid $orange;
 
-    &:not(.button--error):hover {
-      background-color: $white;
+      &:not(.button--error):not(.button--no-transition):hover {
+      background: $white;
       color: $orange;
       border: 2px solid $white;
     }
@@ -78,11 +78,11 @@ $button-padding-h-rem: rem($button-padding-h);
 
   &--yellow {
     border: 4px solid $yellow;
-    background-color: transparent;
+    background: transparent;
 
     &:not(.button--error):hover,
     &:not(.button--error):active {
-      background-color: $yellow !important;
+      background: $yellow !important;
       color: $white;
     }
   }
@@ -92,7 +92,7 @@ $button-padding-h-rem: rem($button-padding-h);
     border-radius: 3px;
     cursor: pointer;
     &:hover {
-      background-color: $white !important;
+      background: $white !important;
       color: $orange !important;
       border: 2px solid $white !important;
     }

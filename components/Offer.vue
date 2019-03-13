@@ -45,7 +45,7 @@
 
         <div class="offer__details">
           From<span class="offer__cost">£{{cost}}</span><br>
-          <small>per person based on 2 people per room</small>
+          <small>{{costDescription}}</small>
         </div>
 
         <img
@@ -69,6 +69,7 @@ export default {
     "location",
     "percentage",
     "cost",
+    "costDescription",
     "url",
     "description",
     "imageSrc"
