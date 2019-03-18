@@ -1,29 +1,6 @@
 <template>
   <footer class="footer">
 
-    <section
-      class="footer__top-section"
-      v-if="!hidePromo"
-    >
-
-      <div class="footer__text-container">
-
-        <h2>12 Microgaps. <br> One weekend. <br> Enter now to win.</h2>
-
-        <p class="large">
-          We’re giving away 12 microgap experiences to
-          12 lucky winners. If you’re free on the weekend of April 5th, don’t miss the opportunity to escape.
-        </p>
-
-        <a
-          class="button button--orange"
-          href="/visitbritain/offers"
-        >See more</a>
-
-      </div>
-
-    </section>
-
     <nav-component type="footer" />
 
     <section class="footer__bottom-section">

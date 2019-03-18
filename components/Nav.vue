@@ -31,13 +31,6 @@
 
     <span>
       <a
-        href="/visitbritain/competition"
-        :class="{'active': currentUrl === '/competition' || currentUrl === '/competition/' }"
-      >Competition</a>
-    </span>
-
-    <span>
-      <a
         href="/visitbritain/offers"
         :class="{'active': currentUrl === '/offers' || currentUrl === '/offers/' }"
       >Offers</a>
