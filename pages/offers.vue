@@ -46,7 +46,7 @@
                 percentage="36"
                 cost="174"
                 costDescription="Per person per night"
-                url="https://www.secretescapes.com/no-mans-fort-portsmouth-hampshire/sale?utm_source=SE_media&utm_medium=VisitBritain&utm_campaign=March2019"
+                url="https://www.secretescapes.com/no-mans-fort-portsmouth-hampshire/sale"
                 imageSrc="https://d1x3cbuht6sy0f.cloudfront.net/sales/42103/cccf48d1_5dc2_4639_b6b5_a0bcfc9e993d.jpg"
               />
 
@@ -148,14 +148,144 @@
 
               <offer
                 key="offer10"
-                title="Best Western Plus Stoke on Trent Moat House with Alton Towers"
-                location="Stoke-on-Trent, Staffordshire"
-                description="A Grade II-listed Staffordshire Georgian house with Alton Towers day passes"
+                title="Peak District hiking with a country mansion stay"
+                location="Shrigley Hall Hotel, Cheshire"
+                description="Relax in 19th-century elegance after exploring the Peak District"
                 percentage=""
-                cost="122"
+                cost="63"
+                costDescription="Per person per night"
+                url="https://www.secretescapes.com/the-shrigley-hall-hotel-and-spa-macclesfield-cheshire/sale"
+                imageSrc="https://d1x3cbuht6sy0f.cloudfront.net/sales/90056/20d537ea_9263_4c35_b7f9_18204715a4ee.jpg"
+              />
+
+              <offer
+                key="offer11"
+                title="Royal Edinburgh Military Tattoo break with a modern hotel stay"
+                location="Edinburgh, Scotland"
+                description="An iconic Edinburgh stay with parades and bagpipes"
+                percentage=""
+                cost="145"
+                costDescription="Per person per stay"
+                url="https://www.secretescapes.com/royal-edinburgh-military-tattoo-break-with-a-modern-hotel-stay-edinburgh-scotland/sale"
+                imageSrc="https://d1x3cbuht6sy0f.cloudfront.net/sales/90157/1bbad095_d45a_4100_8406_c9a983234e78.jpg"
+              />
+
+              <offer
+                key="offer12"
+                title="Yorkshire staycation with foodie tour and charming hotel"
+                location="Best Western Plus Cedar Court Harrogate Hotel, Yorkshire"
+                description="Escape to a central Harrogate hotel and eat your way around town on a tasty tour"
+                percentage=""
+                cost="148"
                 costDescription="Per person for 2 nights"
-                url="https://www.secretescapes.com/best-western-plus-stoke-on-trent-moat-house-with-alton-towers-stoke-on-trent-staffordshire/sale"
-                imageSrc="https://d1x3cbuht6sy0f.cloudfront.net/sales/90338/d1f3a918_8c99_4a08_8589_2c41f9b296c3.jpg"
+                url="https://www.secretescapes.com/yorkshire-staycation-with-foodie-tour-and-charming-hotel-best-western-plus-cedar-court-harrogate-hotel-yorkshire/sale"
+                imageSrc="https://d1x3cbuht6sy0f.cloudfront.net/sales/90029/752e05be_a8dd_414a_ab88_71ef81ea6f89.jpg"
+              />
+
+              <offer
+                key="offer13"
+                title="Craft beer tour & staycation near historic York"
+                location="The Parsonage Hotel & Spa, North Yorkshire"
+                description="A craft beer tour and tasting with a hotel stay near historic York"
+                percentage="27"
+                cost="203"
+                costDescription="Per person for 2 nights"
+                url="https://www.secretescapes.com/a-craft-beer-tour-and-staycation-in-historic-york-the-parsonage-hotel-and-spa-york/sale"
+                imageSrc="https://d1x3cbuht6sy0f.cloudfront.net/sales/90283/b1ce6f33_971b_40a2_962c_ef61e40b696e.jpg"
+              />
+
+              <offer
+                key="offer14"
+                title="Royal Garden Hotel"
+                location="Kensington, London"
+                description="Five-star London luxe near Kensington Gardens, and a Thames river cruise"
+                percentage="43"
+                cost="187"
+                url="https://www.secretescapes.com/royal-garden-hotel-kensington-london/sale"
+                imageSrc="https://d1x3cbuht6sy0f.cloudfront.net/sales/84789/3988f6cf_323d_4cf9_8360_637f2e260b3d.jpg""
+              />
+
+              <offer
+                key="offer15"
+                title="Carlton Court"
+                location="Torquay, Devon"
+                description="Explore Torquay from a family-run boutique abode packed full of charm"
+                percentage="38"
+                cost="70"
+                url="https://www.secretescapes.com/carlton-court-torquay-devon/sale"
+                imageSrc="https://d1x3cbuht6sy0f.cloudfront.net/sales/90060/19c013e1_39c5_4c1e_ac3a_aaeb403e4115.jpg"
+              />
+
+              <offer
+                key="offer16"
+                title="Exclusive dinner with Harry Redknapp & central Manchester stay"
+                location="Hotel Indigo Manchester - Victoria Station, Greater Manchester"
+                description="Meet Harry Redknapp and enjoy metropolitan Manchester from a central hotel"
+                percentage="20"
+                cost="239"
+                costDescription="Per person for 1 night"
+                url="https://www.secretescapes.com/exclusive-dinner-with-harry-redknapp-and-central-manchester-stay-hotel-indigo-manchester-victoria-station-greater-manchester/sale"
+                imageSrc="https://d1x3cbuht6sy0f.cloudfront.net/sales/90295/a60deb21_6d13_4044_b274_2b14fb9aea92.jpg"
+              />
+
+              <offer
+                key="offer17"
+                title="Suite stay near Liverpool with British Music Experience tickets"
+                location="Suites Hotel & Spa Knowsley, Merseyside"
+                description="A music-filled stay near Liverpool with British Music Experience tickets"
+                percentage=""
+                cost="113"
+                costDescription="Per person for 2 nights"
+                url="https://www.secretescapes.com/suite-stay-near-liverpool-with-british-music-experience-tickets-suites-hotel-and-spa-knowsley-merseyside/sale"
+                imageSrc="https://d1x3cbuht6sy0f.cloudfront.net/sales/90043/0fbcf5c5_f6e2_4778_b2f7_3f402f03b504.jpg"
+              />
+
+              <offer
+                key="offer18"
+                title="Inspiring Stratford-upon-Avon Shakespeare break"
+                location="Ettington Chase Hotel, Warwickshire"
+                description="Explore Shakespeare's country, plus an elegant manor house stay"
+                percentage=""
+                cost="110"
+                costDescription="Per person for 2 nights"
+                url="https://www.secretescapes.com/stratford-upon-avon-shakespeare-sojourn-ettington-chase-hotel-warwickshire/sale"
+                imageSrc="https://d1x3cbuht6sy0f.cloudfront.net/sales/89986/da907598_ccdc_4789_902f_625f5741a941.jpg"
+              />
+
+              <offer
+                key="offer19"
+                title="Mesmerising Tutankhamun exhibition & a London hotel stay"
+                location="Saatchi Gallery, Chelsea, & your choice of a London hotel"
+                description="Gaze at King Tut's ancient tomb treasures and enjoy a London hotel stay"
+                percentage=""
+                cost="69"
+                costDescription="Per person for 1 night"
+                url="https://www.secretescapes.com/mesmerising-tutankhamun-exhibition-and-a-hotel-stay-in-london-saatchi-gallery-chelsea-and-your-choice-of-a-london-hotel/sale"
+                imageSrc="https://d1x3cbuht6sy0f.cloudfront.net/sales/90147/9a17d149_3f6a_4185_8025_fc2dbf595286.jpg"
+              />
+
+              <offer
+                key="offer20"
+                title="Taplow House Hotel"
+                location="Maidenhead, Buckinghamshire"
+                description="Embrace rural charm at a boutique Georgian hotel near Windsor"
+                percentage="47"
+                cost="74"
+                costDescription="Per person per night"
+                url="https://www.secretescapes.com/taplow-house-hotel-maidenhead-buckinghamshire/sale"
+                imageSrc="https://d1x3cbuht6sy0f.cloudfront.net/sales/43231/6c300a68_8c3e_4bf1_97a7_8155b5684cba.jpg"
+              />
+
+              <offer
+                key="offer21"
+                title="RiverBeds Luxury Wee Lodges with Hot Tubs"
+                location="Glencoe Valley, Scotland"
+                description="A boutique-style lodge stay with hot tub in Scotland’s Glencoe Valley"
+                percentage="45"
+                cost="98"
+                costDescription="Per person per lodge"
+                url="https://www.secretescapes.com/riverbeds-luxury-wee-lodges-glencoe-valley-scotland/sale"
+                imageSrc="https://d1x3cbuht6sy0f.cloudfront.net/sales/80622/e5399b51_4acd_4a55_abf1_f195ba0911b0.jpg"
               />
 
             </div>
