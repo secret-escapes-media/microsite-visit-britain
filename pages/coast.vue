@@ -185,6 +185,8 @@
       </template>
     </scroll-view>
 
+    <img src="//tag.yieldoptimizer.com/ps/analytics?pxid=44644&" width='1' height='1'>
+
   </div>
 
 </template>

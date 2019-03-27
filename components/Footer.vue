@@ -21,13 +21,6 @@
 
       </div>
 
-      <div class="footer__links">
-        <a
-          target="_blank"
-          href="/visitbritain/terms-and-conditions"
-        >Terms and conditions</a>
-      </div>
-
       <div
         class="footer__copyright"
         id="copyright"
